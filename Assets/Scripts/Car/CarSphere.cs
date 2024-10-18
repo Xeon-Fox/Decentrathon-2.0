@@ -21,13 +21,13 @@ public class CarSphere : MonoBehaviour
     {
         if (groundChecker.OnGround)
         {
-            rb.drag = dragOnGround;
+            rb.linearDamping = dragOnGround;
             if (Mathf.Abs(Car.Speed) > 0)
                 rb.AddForce(Car.transform.forward * Car.Speed);
         }
         else
         {
-            rb.drag = dragInAir;
+            rb.linearDamping = dragInAir;
             rb.AddForce(Vector3.down * gravityForce * 100f);
         }
     }
