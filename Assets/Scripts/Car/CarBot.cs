@@ -6,8 +6,10 @@ public class CarBot : Car
 {
     [SerializeField] float botTurnStrength = 5f;
     [SerializeField] CarProgressHandler progressHandler;
+    [SerializeField] float baseSpeed = 1000f;  // базовая скорость
     LapHandler lapHandler;
-    
+    DifficultyChooser difficultyChooser;
+
     public Vector3 Destination { get; set; }
 
     void Start()
@@ -15,6 +17,18 @@ public class CarBot : Car
         progressHandler.OnBotFinishedLap += HandleBotFinishedLap;
         progressHandler.OnBotCrossedCheckpoint += HandleBotCrossedCheckpoint;
         lapHandler = FindObjectOfType<LapHandler>();
+        difficultyChooser = FindObjectOfType<DifficultyChooser>(); // Получаем ссылку на DifficultyChooser
+
+        if (difficultyChooser == null)
+        {
+            Debug.LogError("DifficultyChooser не найден!");
+        }
+        else
+        {
+            // Установим сложность сразу при старте
+            AdjustSpeedAndTurnStrength();
+        }
+
         Destination = lapHandler.Checkpoints[0].GetRandomDestination();
     }
 
@@ -46,10 +60,41 @@ public class CarBot : Car
 
     void BotMove()
     {
-        Speed = ForwardAccel * 1000f;
+        AdjustSpeedAndTurnStrength();  // Настройка скорости и силы поворота
+        Speed = ForwardAccel * baseSpeed;
         if (GroundChecker.OnGround) State = CarState.OnGroundAndMovingForward;
         else State = CarState.OffGround;
         RotateBotTowardsDestination();
+    }
+
+    void AdjustSpeedAndTurnStrength()
+    {
+        // Проверяем наличие difficultyChooser
+        if (difficultyChooser != null)
+        {
+            switch (difficultyChooser.selectedDifficulty)
+            {
+                case 1: // Легкая сложность
+                    baseSpeed = 400f;  // Уменьшаем скорость
+                    botTurnStrength = 3f;  // Уменьшаем силу поворота
+                    break;
+                case 2: // Средняя сложность
+                    baseSpeed = 800f;  // Базовая скорость
+                    botTurnStrength = 5f;  // Базовая сила поворота
+                    break;
+                case 3: // Высокая сложность
+                    baseSpeed = 1200f;  // Увеличиваем скорость
+                    botTurnStrength = 7f;  // Увеличиваем силу поворота
+                    break;
+                default:
+                    Debug.LogWarning("Неизвестный уровень сложности: " + difficultyChooser.selectedDifficulty);
+                    break;
+            }
+        }
+        else
+        {
+            Debug.LogWarning("DifficultyChooser не инициализирован.");
+        }
     }
 
     void RotateBotTowardsDestination()
