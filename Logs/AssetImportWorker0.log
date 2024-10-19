@@ -1,0 +1,1724 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ru' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Xeon_Fox/Documents/GitHub/Decentrathon-2.0
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58596
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Xeon_Fox/Documents/GitHub/Decentrathon-2.0
+C:/Users/Xeon_Fox/Documents/GitHub/Decentrathon-2.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17712]  Target information:
+
+Player connection [17712]  * "[IP] 26.229.61.224 [Port] 0 [Flags] 2 [Guid] 3594115796 [EditorId] 3594115796 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17712]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3594115796 [EditorId] 3594115796 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17712] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17712] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Xeon_Fox/Documents/GitHub/Decentrathon-2.0/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   31.0.24027.1012
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003294 seconds.
+- Loaded All Assemblies, in  0.382 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 722ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (123ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.731 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1379ms
+	BeginReloadAssembly (397ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (73ms)
+				TypeCache.ScanAssembly (62ms)
+			BuildScriptInfoCaches (21ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (651ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1824 unused Assets / (0.6 MB). Loaded Objects now: 2442.
+Memory consumption went from 104.0 MB to 103.4 MB.
+Total: 4.959900 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.078800 ms MarkObjects: 4.162900 ms  DeleteObjects: 0.468300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37606.058132 seconds.
+  path: Assets/RACE AI/_Materials/Metals
+  artifactKey: Guid(e3f686cd5b5ad804ebccceea461e67e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Metals using Guid(e3f686cd5b5ad804ebccceea461e67e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7af76b36044bf6d2ee6ce7a5028ed872') in 0.0025732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002535 seconds.
+  path: Assets/Prefabs/Bot car Variant.prefab
+  artifactKey: Guid(bdbb02f9b74ea8b4d8ff165d6ef5c758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bot car Variant.prefab using Guid(bdbb02f9b74ea8b4d8ff165d6ef5c758) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50fa206d9e1091ac8b3cda759edf8c6e') in 0.1237861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 154
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003200 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/Road_Side_Albedo2.mat
+  artifactKey: Guid(aadd591379ff84badae9c89933bff64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/Road_Side_Albedo2.mat using Guid(aadd591379ff84badae9c89933bff64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49cfc97fa1cd32b5d12b0b76181ab9af') in 0.0274543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005402 seconds.
+  path: Assets/WorldSkies/Textures/Back_Tex.png
+  artifactKey: Guid(14e55c3b4d7024b45b7a2f443d5a5478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldSkies/Textures/Back_Tex.png using Guid(14e55c3b4d7024b45b7a2f443d5a5478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '227b37c11632783de423cb58d6255442') in 0.0156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003247 seconds.
+  path: Assets/WorldSkies/Textures/Down_Tex.png
+  artifactKey: Guid(2873690125247d64b86e7f5be5dacdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldSkies/Textures/Down_Tex.png using Guid(2873690125247d64b86e7f5be5dacdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbc963fa5a8d6fac84e48b7c2ef0a6c9') in 0.0045495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006143 seconds.
+  path: Assets/WorldSkies/Textures/Right_Tex.png
+  artifactKey: Guid(9fc4d8f41e49128449a5c76714014d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldSkies/Textures/Right_Tex.png using Guid(9fc4d8f41e49128449a5c76714014d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3062ac62828e064a21bba4ef2db56901') in 0.0048596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002010 seconds.
+  path: Assets/RACE AI/_Materials/Ground
+  artifactKey: Guid(1fdb6d5dbbed3f64eb21e4d900f939b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Ground using Guid(1fdb6d5dbbed3f64eb21e4d900f939b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dac0149cffc305aa4a534867660b059b') in 0.0003672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007416 seconds.
+  path: Assets/RACE AI/_Model/Props/Road_to_race2.FBX
+  artifactKey: Guid(6fb838f8fcb61a34a829b7d444fc1f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Props/Road_to_race2.FBX using Guid(6fb838f8fcb61a34a829b7d444fc1f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30f38ae0fc396de3582144a9c7dec300') in 0.2439418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015681 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbfe1e082c8ae785e7e7b8369a772354') in 0.0008971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008235 seconds.
+  path: Assets/RACE AI/_Materials/Ground/e18-004-ground-grass.mat
+  artifactKey: Guid(5942c9d17777bfb48b3e8ff37945381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Ground/e18-004-ground-grass.mat using Guid(5942c9d17777bfb48b3e8ff37945381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ef8bfcfa4a3b5a0d64a398468893db4') in 0.0069492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002036 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1edbb87b2170d43e1ca5129787312f12') in 0.0003185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009404 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '441aa3e92cda27c68af8a1706ee847ab') in 0.0004082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017905 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/Parking Textures/signs.png
+  artifactKey: Guid(bea6935b487c89b4b85f51959160b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/Parking Textures/signs.png using Guid(bea6935b487c89b4b85f51959160b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c14536e37328a0fd5a5a57e032a6ed49') in 0.0051211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018028 seconds.
+  path: Assets/WorldSkies/Textures/Left_Tex.png
+  artifactKey: Guid(f19a2c6b460d19a4bb6d6c60d769e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldSkies/Textures/Left_Tex.png using Guid(f19a2c6b460d19a4bb6d6c60d769e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccee8d9b1448735bca010b8c4b50a0d5') in 0.0051835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007355 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e365763db96b3540acb77f9ea46f85d1') in 0.0007628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010199 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75c5e78fcdb9b0efa89101b21f27775e') in 0.0013372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012929 seconds.
+  path: Assets/RACE AI/Shaders/Mobile_Specular_Detail.shader
+  artifactKey: Guid(e61e28e694e651546ae1176bccf4c8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Shaders/Mobile_Specular_Detail.shader using Guid(e61e28e694e651546ae1176bccf4c8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ea7a0c87d6766000048d547f5ef1a62') in 0.0006152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044312 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Environment/all2.png
+  artifactKey: Guid(94e4cbf99e03345b9a496f036d6386da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Environment/all2.png using Guid(94e4cbf99e03345b9a496f036d6386da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fb702727f2be9240af381e147957075') in 0.0059635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006501 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Environment
+  artifactKey: Guid(fb69aa9706501d84995acc90df215f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Environment using Guid(fb69aa9706501d84995acc90df215f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33e29402d627c89023761550472324da') in 0.0004139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009371 seconds.
+  path: Assets/RACE AI/_Model/Environment/Driftmeshes
+  artifactKey: Guid(413cd96e86046374bbb4961ff97418da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Environment/Driftmeshes using Guid(413cd96e86046374bbb4961ff97418da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb654d05dde7fe61ee99422ab4e3e14b') in 0.0003858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005640 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/barrier.png
+  artifactKey: Guid(14ebe92f15ab84f6295fd53c375459a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/barrier.png using Guid(14ebe92f15ab84f6295fd53c375459a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d3eece3fde97f7d546d16d79f4a000c') in 0.0036328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014642 seconds.
+  path: Assets/Scripts/UI/Difficulty.cs
+  artifactKey: Guid(6c6557ca89fc95e48ac9c4b0e9ca338f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Difficulty.cs using Guid(6c6557ca89fc95e48ac9c4b0e9ca338f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b5f2cbaa233e4f9ac9010ba9dc3399e') in 0.0004884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025878 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/Road_albedo05.png
+  artifactKey: Guid(11d1210b8a5af426aa5f4c5cb8d12346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/Road_albedo05.png using Guid(11d1210b8a5af426aa5f4c5cb8d12346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7a46dd3e22dba5921d9eaf919d6ee5d') in 0.0130726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003233 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba1f5d85f6deb53d1a25b68a16079965') in 0.0005763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001982 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e2d4b1837bd4da415e086859f366568') in 0.00269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002167 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da993295d0569e916118854ad34436eb') in 0.0595428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002221 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '309c7116490525ef26b5d67ed0569710') in 0.0003859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007906 seconds.
+  path: Assets/RACE AI/_Model/Environment/Driftmeshes/BarrierRoad_Toha.FBX
+  artifactKey: Guid(cc724fe4acf0641fea6808a42514dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Environment/Driftmeshes/BarrierRoad_Toha.FBX using Guid(cc724fe4acf0641fea6808a42514dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd39e815539ce64054f4ce7b6fe3dc073') in 0.0149242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003101 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e3d0fe6f5acc8d150bfb4bd92821946') in 0.0009708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009020 seconds.
+  path: Assets/Tree_Textures
+  artifactKey: Guid(5b050b5b0f706404d9bfe9ffa3493213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures using Guid(5b050b5b0f706404d9bfe9ffa3493213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb7cdcce70c176377f26ba34224be448') in 0.0004594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002712 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fcae494fd5a6509bc5381c7e6af140c') in 0.0005074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004222 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d00f72d72de3bf1c44f1365a94706ed') in 0.0044857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002443 seconds.
+  path: Assets/RACE AI/Race Track.unity
+  artifactKey: Guid(4b0731bec173a9949a3aaa4c51471834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Race Track.unity using Guid(4b0731bec173a9949a3aaa4c51471834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ffef46ad60b9a9670c52363a968ac8a') in 0.0003423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002286 seconds.
+  path: Assets/RACE AI/_Materials/Road Signs/signs.mat
+  artifactKey: Guid(1325805699065cc4092b95abf47c2c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Road Signs/signs.mat using Guid(1325805699065cc4092b95abf47c2c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9f22e60b00b5b4f624ed2884e3087eb') in 0.0064034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015154 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/banners.mat
+  artifactKey: Guid(078297e0e0fde4b19a37b4743eec1d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/banners.mat using Guid(078297e0e0fde4b19a37b4743eec1d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8558a13388b71283e4c30c3e79e7af4c') in 0.0054042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002044 seconds.
+  path: Assets/RACE AI/_Materials/Banners
+  artifactKey: Guid(17f9b650094dfef408d8d23387059b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Banners using Guid(17f9b650094dfef408d8d23387059b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e91f73c2c76c03d6cd856b6ff10c48a') in 0.0003155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004634 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f9e59b6e4bb30d09c98478feadcb146') in 0.000734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006295 seconds.
+  path: Assets/RACE AI/_Materials/Village materials
+  artifactKey: Guid(9fba6cfc743470a4287ae8cc44d553f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Village materials using Guid(9fba6cfc743470a4287ae8cc44d553f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c1431aeb7e4f5199bbadb73ffce56f1') in 0.0004007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004851 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions
+  artifactKey: Guid(59c65f895f9362945a0d156b5e445348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions using Guid(59c65f895f9362945a0d156b5e445348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1e2b23cce773582b100dd0217d87336') in 0.0003385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003971 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/RoadRails_01 _dublicate.jpg
+  artifactKey: Guid(bb0adf8d48c84454fa50e357b20f9418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/RoadRails_01 _dublicate.jpg using Guid(bb0adf8d48c84454fa50e357b20f9418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caae16701ce672d7778b8c9033d589df') in 0.0041776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011127 seconds.
+  path: Assets/RACE AI/_Materials/MatDriftRaceTrack/Asphalt_Drift_08.mat
+  artifactKey: Guid(5e6c9c2aa208042aaa0a56b67a1c6699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/MatDriftRaceTrack/Asphalt_Drift_08.mat using Guid(5e6c9c2aa208042aaa0a56b67a1c6699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '055d8932fb9683ae30bc14991eb5c5b1') in 0.0111464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002410 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/Tribune
+  artifactKey: Guid(956f05eafce2ea0469c1c275da871d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/Tribune using Guid(956f05eafce2ea0469c1c275da871d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f56a93821b2f3ade4b2db4bcb3f87d') in 0.0003508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009434 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Environment/sandC.jpg
+  artifactKey: Guid(63c939b4b72cb5b44a3800c63ac39e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Environment/sandC.jpg using Guid(63c939b4b72cb5b44a3800c63ac39e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '588cfcac110b7c1acfc841d4ad36d3f9') in 0.0052056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007825 seconds.
+  path: Assets/RACE AI/_Model/Environment/Driftmeshes/Barrier_road_for_Toha.FBX
+  artifactKey: Guid(0b9fa9e02d8184330b58b12764cfdd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Environment/Driftmeshes/Barrier_road_for_Toha.FBX using Guid(0b9fa9e02d8184330b58b12764cfdd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cf108b314b17cd26e72e6e7ec2d790e') in 0.0092295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015966 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd560e7d69daff61a34445e673db62f20') in 0.000837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029728 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/metalplatespainted-8.png
+  artifactKey: Guid(67293fa22b77cc04cbad01c11bd2f05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/metalplatespainted-8.png using Guid(67293fa22b77cc04cbad01c11bd2f05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '306ea4428a19aa104e4ff3fead483e57') in 0.0051357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003131 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/barrier.mat
+  artifactKey: Guid(cf228b87bd66747eabbf395ab2a81025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/barrier.mat using Guid(cf228b87bd66747eabbf395ab2a81025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '136ab59a3fc49bb87ca8450fbddfeb4c') in 0.0053488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005107 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/AsphaltRoad_03_Emis.png
+  artifactKey: Guid(9fd05d2e1930c4e4381583691ed9784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/AsphaltRoad_03_Emis.png using Guid(9fd05d2e1930c4e4381583691ed9784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d96bc11460a39616a155fae196406e0') in 0.0041079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002007 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(5f52696139585e4438ea45eac8c2f2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(5f52696139585e4438ea45eac8c2f2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66203aa4422bcbb490d322a393389161') in 0.0003208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020672 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0de54967dd76a724dbce6ab6be1d1e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0de54967dd76a724dbce6ab6be1d1e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c54bca546e4cc214e6ea15f367e6384') in 0.0003951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024006 seconds.
+  path: Assets/RACE AI/_Materials/MatDriftRaceTrack/Building_05.mat
+  artifactKey: Guid(214f37ef53f214811bc869b56c0cf1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/MatDriftRaceTrack/Building_05.mat using Guid(214f37ef53f214811bc869b56c0cf1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b637b22bd55e83e345bc2f1f39c82a5') in 0.0053811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002403 seconds.
+  path: Assets/RACE AI/_Materials/Road Materials/roadtrack01.mat
+  artifactKey: Guid(0c1ec39ea749d9d4496e174023762fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Road Materials/roadtrack01.mat using Guid(0c1ec39ea749d9d4496e174023762fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90ee1b40039e2255a225d4dc0fdd9ec5') in 0.0085655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009894 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb57f5bf3c19d061a8e4ad7c5848625f') in 0.0008418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002399 seconds.
+  path: Assets/RACE AI/_Materials/Other Materials/barrier3.mat
+  artifactKey: Guid(e45ffb8cfb2580c40bc2dd48b6c0c765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Other Materials/barrier3.mat using Guid(e45ffb8cfb2580c40bc2dd48b6c0c765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc73103c19ec2def495f7f4c0b27ada3') in 0.0051861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006579 seconds.
+  path: Assets/RACE AI/_Model/Props
+  artifactKey: Guid(18c57a609036c9245b8ddb7ccf3c39fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Props using Guid(18c57a609036c9245b8ddb7ccf3c39fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b45e51dcc4c768f0c8cb5d263358700') in 0.0004116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005459 seconds.
+  path: Assets/RACE AI/Textures
+  artifactKey: Guid(c79082882580ef149a00bd1678cec208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures using Guid(c79082882580ef149a00bd1678cec208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '726e31b2f50bca618df7a9d4745864c6') in 0.0003299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010121 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(064cefa342cdc7c49b7415a697deb27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(064cefa342cdc7c49b7415a697deb27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '544d5f5dbfed653e5d8dc3ecaa4a7a92') in 0.0004509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001651 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(a58be4945c4a35843b393f80a1417ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(a58be4945c4a35843b393f80a1417ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24dfc1ff5cdcf69f6b6257b77dfd9d99') in 0.0002802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006577 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/tunnel.mat
+  artifactKey: Guid(6cb6bd37a91684747b70f6496ad2e069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/tunnel.mat using Guid(6cb6bd37a91684747b70f6496ad2e069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5902289b328e1ee96fffd878eed4c51d') in 0.0064628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044408 seconds.
+  path: Assets/RACE AI/_Model/Platform/Hangar.fbm/tunnel.png
+  artifactKey: Guid(c076e39c093d547b6bd33aa5c861d16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Platform/Hangar.fbm/tunnel.png using Guid(c076e39c093d547b6bd33aa5c861d16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d254357c20026fcede322f5017fa629') in 0.0054754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003190 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/metalplatespainted-8.mat
+  artifactKey: Guid(9705ddd21b7374db29177ea6d823824e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/metalplatespainted-8.mat using Guid(9705ddd21b7374db29177ea6d823824e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c92547a1edf242ca38fb4fa21377315a') in 0.0054798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011161 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/barrier.png
+  artifactKey: Guid(71f4fb4ce333bfa408a0b52c2921cc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/barrier.png using Guid(71f4fb4ce333bfa408a0b52c2921cc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd00ee41fb460b7b6af9e0496ed6a7c86') in 0.0039607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001904 seconds.
+  path: Assets/Icons
+  artifactKey: Guid(c59f1013dde0f294e88dccc3f8b264d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons using Guid(c59f1013dde0f294e88dccc3f8b264d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b87a83c3d95950c70b40cc32c45e7ab5') in 0.0003187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020533 seconds.
+  path: Assets/RACE AI/_Model/Platform/Hangar.fbm/Road_albedo.png
+  artifactKey: Guid(3569fab2a754d4c99947f285b1f97634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Platform/Hangar.fbm/Road_albedo.png using Guid(3569fab2a754d4c99947f285b1f97634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1309cb2bb1aafb5ba348e3a260700ad') in 0.0132312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002454 seconds.
+  path: Assets/RACE AI/_Materials/Ground/Grass01_main.mat
+  artifactKey: Guid(4c756efdf80a2074c92691e65018f26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Ground/Grass01_main.mat using Guid(4c756efdf80a2074c92691e65018f26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b5f1e0221f6e3c9c2796d7ec5001431') in 0.0057524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008024 seconds.
+  path: Assets/WorldSkies/Textures/Up_Tex.png
+  artifactKey: Guid(68210b160be204e44b2243ddb641c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldSkies/Textures/Up_Tex.png using Guid(68210b160be204e44b2243ddb641c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb27d7561238ce63797d6f2b25d3cecd') in 0.0052776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002496 seconds.
+  path: Assets/RACE AI/_Materials/AutofenceMaterials/Fence.mat
+  artifactKey: Guid(66b1abe22abb5794c8d330a05b0abf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/AutofenceMaterials/Fence.mat using Guid(66b1abe22abb5794c8d330a05b0abf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4652ef7096d02b8b008139c5421b70c') in 0.0481302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008192 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Other
+  artifactKey: Guid(5e9fbb7db3c07d4469c32e7743b4a9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Other using Guid(5e9fbb7db3c07d4469c32e7743b4a9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f50f9299db6a2554b367e6c0e43c68eb') in 0.0004612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002823 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9773e1e7c96095045b4b23dbee84f936') in 0.0005389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014218 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Other/banners.png
+  artifactKey: Guid(a7667ae601dd14444a8fdc611c25f8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Other/banners.png using Guid(a7667ae601dd14444a8fdc611c25f8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3deb231cc90d95e473fd027cff14048') in 0.0054655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006883 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '596f31723aecc12fb9d4f257d65d39fb') in 0.0003779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002625 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14c9f8274fe42443d3425a480167564d') in 0.0006269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002286 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/road_a2.mat
+  artifactKey: Guid(aa4cd6efdb4934a81954828f66b97c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/road_a2.mat using Guid(aa4cd6efdb4934a81954828f66b97c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65052297c960de253995477ead0a3e7a') in 0.0060306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002427 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm
+  artifactKey: Guid(79ffca75137d8164c884d9954eab4364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm using Guid(79ffca75137d8164c884d9954eab4364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '917cef459b635857fe5c1a5c54e8b981') in 0.0003288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002168 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2c807aa802f2cac2756f02e4bc67cf0') in 0.0250836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005333 seconds.
+  path: Assets/RACE AI/_Materials/Banners/banners.mat
+  artifactKey: Guid(d111d09270ef64954b36a96f7a6a315a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Banners/banners.mat using Guid(d111d09270ef64954b36a96f7a6a315a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e156b6fc769ff9806463ad792f250b12') in 0.0053383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007204 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/rw_bnd3C.png
+  artifactKey: Guid(c1506bdaf653e4bc9b40c968529300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/rw_bnd3C.png using Guid(c1506bdaf653e4bc9b40c968529300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4886ea95a0d86b9848d02a1236814e86') in 0.0035143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002233 seconds.
+  path: Assets/RACE AI/_Model/Props/banners.fbm
+  artifactKey: Guid(52a1de32b21772e4d824b54b45410b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Props/banners.fbm using Guid(52a1de32b21772e4d824b54b45410b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4185d8738c8763ff5b4d0b0069df3104') in 0.0004704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008870 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(2a91c0fbcb788a94f92d356eef585632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(2a91c0fbcb788a94f92d356eef585632) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca43f7892f76c783d85bb36411d8ba5a') in 0.019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020838 seconds.
+  path: Assets/RACE AI/_Prefabs/UnUsed/beach.fbm/sandC.jpg
+  artifactKey: Guid(4fd75af0a5e6c4604a9225552d77dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Prefabs/UnUsed/beach.fbm/sandC.jpg using Guid(4fd75af0a5e6c4604a9225552d77dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fc8b8a53638fe743d7a4637d1ba15e9') in 0.0053899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015280 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/signs.png
+  artifactKey: Guid(ded8d13b8497f4d46aa746205d7bb8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/signs.png using Guid(ded8d13b8497f4d46aa746205d7bb8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7e0b2f45c3a11e07610bc05a110baee') in 0.0048917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002531 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/Village Textures/Terrain
+  artifactKey: Guid(bdf90bf3572050e42b5d68b189a02c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/Village Textures/Terrain using Guid(bdf90bf3572050e42b5d68b189a02c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5c6a0647ac36c4812bc38adb1e8e450') in 0.0004497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002608 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/roadtrack.mat
+  artifactKey: Guid(345bd5a020b4141818e5923721f55c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/roadtrack.mat using Guid(345bd5a020b4141818e5923721f55c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7b172788fd580fde4741441112a01a5') in 0.0117438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009772 seconds.
+  path: Assets/Scenes/SampleScene/LightingData.asset
+  artifactKey: Guid(7648df758e384d947a15ab0226c34b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(7648df758e384d947a15ab0226c34b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd454f1cff7b357958a6a468611c172b9') in 0.0011309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002008 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a99557be23b8bc5f4f73267bb1c60b78') in 0.018713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001825 seconds.
+  path: Assets/RACE AI/_Materials/Road Materials
+  artifactKey: Guid(13a9f9d9d471f394a8eb20aadef8bda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Road Materials using Guid(13a9f9d9d471f394a8eb20aadef8bda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e28e8fa9957f10c200272a43d154671') in 0.0003492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004337 seconds.
+  path: Assets/RACE AI
+  artifactKey: Guid(8af2f94ffaf59144a9d83fa8c8372287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI using Guid(8af2f94ffaf59144a9d83fa8c8372287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8039f9e9992368e74fb59971024b4534') in 0.0002858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023268 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/Road_albedo.png
+  artifactKey: Guid(5f24049a78c76274c9da5249e8d4432b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/Road_albedo.png using Guid(5f24049a78c76274c9da5249e8d4432b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5a0716c0d8167641b6b50e3278e3cc6') in 0.006539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002883 seconds.
+  path: Assets/RACE AI/Shaders/MapIllumination.shader
+  artifactKey: Guid(263a86e1a43a4f51819601ea45be1003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Shaders/MapIllumination.shader using Guid(263a86e1a43a4f51819601ea45be1003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a0cfb596e86bf63293812f577163c6e') in 0.000534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006858 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd53e6cba944eba85e689770a8d90f733') in 0.0002915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008161 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/all.mat
+  artifactKey: Guid(521489e15231f4267aa8c899dd6c233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/all.mat using Guid(521489e15231f4267aa8c899dd6c233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac2e952085670805d25aa3bb0fff8221') in 0.0319909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002292 seconds.
+  path: Assets/RACE AI/_Model/Platform
+  artifactKey: Guid(7744f042aed32cc46bbf746deef94ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Platform using Guid(7744f042aed32cc46bbf746deef94ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '854f65be5dd2e291f0762a8aa433131d') in 0.0003495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003849 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4ecff70b126a9b8726d896a0ccc7cda') in 0.0108221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001965 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(622c5c8aa41fc1848889a1347455a435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(622c5c8aa41fc1848889a1347455a435) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcc761a100d305f34486f993c575c531') in 0.0003949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002371 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0b70bca9c9f7e05ac840d6f141cee5c') in 0.0007139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006188 seconds.
+  path: Assets/RACE AI/_Materials/Other Materials
+  artifactKey: Guid(195a5351db8c47740965e36ff77849dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Other Materials using Guid(195a5351db8c47740965e36ff77849dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15268ce80fe3e9417ac6a0ca9ab14c6a') in 0.0003422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005745 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a91f11808356c12d48ced8d1eaef175') in 0.000305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004771 seconds.
+  path: Assets/Scripts/Car/Car.cs
+  artifactKey: Guid(7f2c70153a29fd9478245ad09e6793db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/Car.cs using Guid(7f2c70153a29fd9478245ad09e6793db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccfb89d694c6b99acee006d18753d68c') in 0.0002862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009932 seconds.
+  path: Assets/Scripts/Car/CarBot.cs
+  artifactKey: Guid(88a58f96494312e4484705d7d8095cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/CarBot.cs using Guid(88a58f96494312e4484705d7d8095cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06591e317659affe1f032d553abdcaf1') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001430 seconds.
+  path: Assets/RACE AI/_Materials
+  artifactKey: Guid(4bd6694cff1d75d4f92f86e2ce4569eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials using Guid(4bd6694cff1d75d4f92f86e2ce4569eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9840325e75d823a0f20ecce8028da398') in 0.0002726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019633 seconds.
+  path: Assets/RACE AI/Textures/FenceGrid.png
+  artifactKey: Guid(88d80126289cc0a42a6438e8e19f1fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/FenceGrid.png using Guid(88d80126289cc0a42a6438e8e19f1fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8bf53833c2091fec62e8049ee5bcc1e') in 0.0049954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002573 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/rw_bnd3C.mat
+  artifactKey: Guid(ad6591f45a2394f5c963c6bda3e62fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/rw_bnd3C.mat using Guid(ad6591f45a2394f5c963c6bda3e62fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f113dbfb6785716f8984e77d966611a') in 0.0050687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002459 seconds.
+  path: Assets/RACE AI/_Materials/Ground/Grass_Albedo.mat
+  artifactKey: Guid(549f0b42f68139843b84bf6c8d70f0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Ground/Grass_Albedo.mat using Guid(549f0b42f68139843b84bf6c8d70f0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c11f56fe02a0d8009d6b4f08fedf2b21') in 0.0071011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004972 seconds.
+  path: Assets/RACE AI/_Model/Platform/Hangar.fbm
+  artifactKey: Guid(748591bd45fca304dacc6d36f8c42cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Platform/Hangar.fbm using Guid(748591bd45fca304dacc6d36f8c42cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4949ad1fe3ce7d911092659e75eaab24') in 0.0004671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013217 seconds.
+  path: Assets/RACE AI/_Materials/Road Signs
+  artifactKey: Guid(171815c8e6e7a224195beda53f534582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Road Signs using Guid(171815c8e6e7a224195beda53f534582) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faee14ddb0dcecdb0b3e818c70a97cfd') in 0.0003808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001893 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/banners.mat
+  artifactKey: Guid(65ae7cb13aedf4e8f9e9634acb4d5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/banners.mat using Guid(65ae7cb13aedf4e8f9e9634acb4d5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5744bd44f89aa33dea2f05fa56f33cae') in 0.1068702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025218 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/road_a2.png
+  artifactKey: Guid(6e54936d2bc4a43e298bd9cb5cb1499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/road_a2.png using Guid(6e54936d2bc4a43e298bd9cb5cb1499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c412af1ed15a5fea390212bd9da0634c') in 0.0057609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002682 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/Road_albedo.mat
+  artifactKey: Guid(cffdb5629cedb4b2cacd14d51a5df3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/Road_albedo.mat using Guid(cffdb5629cedb4b2cacd14d51a5df3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3f104c6c922712a54b0ef4d58988ae4') in 0.005998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006535 seconds.
+  path: Assets/RACE AI/_Materials/Ground/sand.mat
+  artifactKey: Guid(b767f99c09356ee44ae488f9047e9e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Ground/sand.mat using Guid(b767f99c09356ee44ae488f9047e9e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd22a59c53a8e04d94ee4b2b686724e1d') in 0.0055666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006392 seconds.
+  path: Assets/RACE AI/_Materials/Materials12
+  artifactKey: Guid(f1b992b12b872b841a4aab797823aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12 using Guid(f1b992b12b872b841a4aab797823aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b755e6c28ff0b6b6e688710f9eeca0d4') in 0.0004055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002686 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ef7d7a0214a47e3575cfffb61e1aa80') in 0.0231228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046670 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/tunnel21.png
+  artifactKey: Guid(377e61c4204a0442b8d918d3c6d6ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/tunnel21.png using Guid(377e61c4204a0442b8d918d3c6d6ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '448379e6d11391aa3430424d218b3031') in 0.005049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002651 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/sandC.mat
+  artifactKey: Guid(ca0dde48256df48859406c34b808fd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/sandC.mat using Guid(ca0dde48256df48859406c34b808fd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27415390ef98c59500f41ad54981928') in 0.0052746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002866 seconds.
+  path: Assets/Scripts/Car/CarEngineVolumeHandler.cs
+  artifactKey: Guid(9c06fd061b3a54343a70eeccfde5d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/CarEngineVolumeHandler.cs using Guid(9c06fd061b3a54343a70eeccfde5d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a969f54637090fef91b78556de13f78') in 0.0004213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006161 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/rw_bnd3C.mat
+  artifactKey: Guid(bfd38712290d15f48a26081cc9e72930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/rw_bnd3C.mat using Guid(bfd38712290d15f48a26081cc9e72930) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab33d2031249ec8a3d084f6861590a39') in 0.0045605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003524 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/rw_bnd3C.png
+  artifactKey: Guid(b1c6e804f979efb47913c56f967596f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/rw_bnd3C.png using Guid(b1c6e804f979efb47913c56f967596f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a3fdf480e8e6a3d7902004f3aaa089f') in 0.0035296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012384 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c99ec191b31f1ea0c477d4a6feec5b5') in 0.0008515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002297 seconds.
+  path: Assets/RACE AI/_Materials/Metals/metalplatespainted-9.mat
+  artifactKey: Guid(1c05c66df8f0de747ac95b103ba87806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Metals/metalplatespainted-9.mat using Guid(1c05c66df8f0de747ac95b103ba87806) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ee8c2cc92bccffb91f76d77e863f0ec') in 0.0058375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029430 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/metalplatespainted-8.png
+  artifactKey: Guid(89ac32d2e724545f4814691c4ecec141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/metalplatespainted-8.png using Guid(89ac32d2e724545f4814691c4ecec141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72294060e2b30cc2a53f014d0162df90') in 0.0045919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001795 seconds.
+  path: Assets/RACE AI/_Materials/Tunnel
+  artifactKey: Guid(4edcc918931eeb941b07412ad9e16a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Tunnel using Guid(4edcc918931eeb941b07412ad9e16a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f53d47bcabb9a5f0976bb878fe7477c') in 0.0003104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005900 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/roadtrack.mat
+  artifactKey: Guid(3a2a5cba8584b7b4fb493a7a50d2cbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/roadtrack.mat using Guid(3a2a5cba8584b7b4fb493a7a50d2cbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c49e906a06c9fdddfc99886305bd4328') in 0.0048225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004109 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/Tribune/RT General Transparent.png
+  artifactKey: Guid(f76a057c953e99a4fa3792d3efb8f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/Tribune/RT General Transparent.png using Guid(f76a057c953e99a4fa3792d3efb8f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7ae602a2dcc29ab2b106e5f49f03db5') in 0.0050076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017718 seconds.
+  path: Assets/RACE AI/_Materials/AutofenceMaterials
+  artifactKey: Guid(4224fbaa0fd29a443add1a8d2445fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/AutofenceMaterials using Guid(4224fbaa0fd29a443add1a8d2445fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbc30bd944ef16b698eeeeaa961ba1ed') in 0.0004373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001764 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials
+  artifactKey: Guid(60bde6aea6b273b488a18f3b585f4176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials using Guid(60bde6aea6b273b488a18f3b585f4176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a63f7ee3d5d7ef4a85a192333bf24413') in 0.0002996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002297 seconds.
+  path: Assets/RACE AI/Shaders/LightsEmmissive.shader
+  artifactKey: Guid(6e54e022b28baba4aa6c0ee69d398457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Shaders/LightsEmmissive.shader using Guid(6e54e022b28baba4aa6c0ee69d398457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51d4f447487429c1a9c943f56f3cfa24') in 0.0004976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016353 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/roadtrack.png
+  artifactKey: Guid(58dafa5eb9aae4ce7a8e4cec56944c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/roadtrack.png using Guid(58dafa5eb9aae4ce7a8e4cec56944c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd194d3185e8f1397045a250de8330c0') in 0.0049604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003403 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04c7584f0055711bb8e579b94f8726df') in 0.0006077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001405 seconds.
+  path: Assets/WorldSkies
+  artifactKey: Guid(e3e9d94f0141443428d6e05466df1a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldSkies using Guid(e3e9d94f0141443428d6e05466df1a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cadc06ac6fbcede08cc95d54181dd0fa') in 0.0002816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013898 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/e18-004-ground-grass.jpg
+  artifactKey: Guid(91844ade421ff644ea9ecc6576414d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/track2.fbm/e18-004-ground-grass.jpg using Guid(91844ade421ff644ea9ecc6576414d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ee7cd7f1591663a74b3ccfc9770aa3c') in 0.0055739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006058 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads
+  artifactKey: Guid(d2a2191c27a2a9e4cac0767a9a7f4ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads using Guid(d2a2191c27a2a9e4cac0767a9a7f4ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4be329c064a50a116667cea77e309872') in 0.0004214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002316 seconds.
+  path: Assets/RACE AI/_Materials/Tunnel/tunnel07.mat
+  artifactKey: Guid(517a75f90b3af4b3fa648c556b0f7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Tunnel/tunnel07.mat using Guid(517a75f90b3af4b3fa648c556b0f7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5c6c3bb0ff15e970981e17de28d9c19') in 0.0060165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002287 seconds.
+  path: Assets/RACE AI/_Model/Environment
+  artifactKey: Guid(c75f42c343252e74cb56b92a01044d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Environment using Guid(c75f42c343252e74cb56b92a01044d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd52ada52173227d53bdaa95c48221dbc') in 0.0003354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033944 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/road_a1.png
+  artifactKey: Guid(6b87fb371c38143eb8813f8be9b070ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/road_a1.png using Guid(6b87fb371c38143eb8813f8be9b070ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f3b4985a938289282c814cb7a45c3a5') in 0.006371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010507 seconds.
+  path: Assets/RACE AI/_Model/Roads/track2.FBX
+  artifactKey: Guid(2b245fe531d048b44892054bde4b7364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/track2.FBX using Guid(2b245fe531d048b44892054bde4b7364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '652432d6e097fbe70ab6dfe22742a484') in 0.7243548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 852
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026316 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/AsphaltRoad_03_D.png
+  artifactKey: Guid(79228e12a5ff0a34cbb544f09a510613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/AsphaltRoad_03_D.png using Guid(79228e12a5ff0a34cbb544f09a510613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f27bff2c49ef34d5786c2ec339927495') in 0.0110099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034663 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/Road_normal.png
+  artifactKey: Guid(98229d9288e54524e9e8e5916d703646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/Road_normal.png using Guid(98229d9288e54524e9e8e5916d703646) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95abb567d687cbee5f31816702969647') in 0.0133533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/RACE AI/Textures/_Textures
+  artifactKey: Guid(dad4588d8c80fb349800eca1360a6915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures using Guid(dad4588d8c80fb349800eca1360a6915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e8651811c4e8d5a7b53f51874b31670') in 0.0003599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002323 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd32dee86c5bbcb784da193ca10dde81') in 0.0005174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002780 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '720c44c0bee8f45e1e3b77fcf3d53650') in 0.0004133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035839 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/Village Textures/Terrain/Grass_Albedo.tif
+  artifactKey: Guid(e81bd88777c51f54ab348cbafe13c4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/Village Textures/Terrain/Grass_Albedo.tif using Guid(e81bd88777c51f54ab348cbafe13c4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '223cd4029cf20306fb5e2986125ec4e9') in 0.0067711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002669 seconds.
+  path: Assets/RACE AI/_Model
+  artifactKey: Guid(95c1bf77a802a60438bdd9eed5604e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model using Guid(95c1bf77a802a60438bdd9eed5604e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9530444359c46acdead70742525a2858') in 0.0004027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007501 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c994c6ace78adc068603af0bda2d332') in 0.0007385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001929 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/signs.mat
+  artifactKey: Guid(a5de21ef209174a218cb48fcaf31eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/signs.mat using Guid(a5de21ef209174a218cb48fcaf31eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '517b3b4c88135f427a53f928254e9b16') in 0.0057662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010022 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81e068837c363a170e3246670b242d02') in 0.0586463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017217 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce526e05ded034cc5437081bb115df09') in 0.0007281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003839 seconds.
+  path: Assets/RACE AI/_Model/Props/Road_to_race.FBX
+  artifactKey: Guid(f1aeafe93ca496e4099ea2ac04d264f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Props/Road_to_race.FBX using Guid(f1aeafe93ca496e4099ea2ac04d264f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d7dad2f050642628aa9b998c4d032ee') in 0.0130468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002716 seconds.
+  path: Assets/RACE AI/_Materials/MatDriftRaceTrack/Tranperent.mat
+  artifactKey: Guid(165ea54b3f04dc5418c76601a3a7a64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/MatDriftRaceTrack/Tranperent.mat using Guid(165ea54b3f04dc5418c76601a3a7a64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '178e7673c20f33496ba3ebc1a2463696') in 0.0078032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002892 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f6ccac76d9a3c56bad48f63764a4b2') in 0.0005547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012077 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/Race_barrier_new.png
+  artifactKey: Guid(6c1212e0e873340edba20007a2a8e2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/Race_barrier_new.png using Guid(6c1212e0e873340edba20007a2a8e2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57f4f8572d6d041caee2bb998b8cfc87') in 0.0044366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002041 seconds.
+  path: Assets/Models
+  artifactKey: Guid(52e3f0a369f566941bf17deea74d3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(52e3f0a369f566941bf17deea74d3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae885acc37593ca2d9ec842f454ca207') in 0.0003039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008146 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b5f9132a44e45a2e50a07460bf9f434') in 0.0005067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002368 seconds.
+  path: Assets/RACE AI/_Materials/Village materials/Road_Asphalt light.mat
+  artifactKey: Guid(ed8f50fcc30ab408792b63f9153f3b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Village materials/Road_Asphalt light.mat using Guid(ed8f50fcc30ab408792b63f9153f3b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f0a71017dcd944d31b2777c65be6f44') in 0.0085687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022471 seconds.
+  path: Assets/RACE AI/_Model/Props/banners.fbm/banners.png
+  artifactKey: Guid(1563a6240f31f4317b23b2c8aa0d291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Props/banners.fbm/banners.png using Guid(1563a6240f31f4317b23b2c8aa0d291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92bd509bd686686763e00a0c25d10b5e') in 0.0050677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002929 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54061a6dc1215d8e35e95761162ea48a') in 0.000574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007008 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8e4f47f377a638022f95b3ecd7e293f') in 0.0005633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008791 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/Road_albedo.mat
+  artifactKey: Guid(68c7def03409e464e8d549ed1d45e717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/Road_albedo.mat using Guid(68c7def03409e464e8d549ed1d45e717) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56f07c97dde1e8a9bba8ebd7bad40c18') in 0.0063438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005799 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/Parking Textures
+  artifactKey: Guid(aafeca552079aa748a691e543ce9328d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/Parking Textures using Guid(aafeca552079aa748a691e543ce9328d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad815d0f0e001fba5d055eb35c420fb') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013373 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36a6318e7a4d4169f59d66ccd3bc2b67') in 0.0004314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001473 seconds.
+  path: Assets/RACE AI/Shaders
+  artifactKey: Guid(83ba151ef3385ee4683850c770ee8b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Shaders using Guid(83ba151ef3385ee4683850c770ee8b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dac0620ec0e3973adb01a1b3fc453b5f') in 0.0002683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002737 seconds.
+  path: Assets/Scripts/Car/CarPlayer.cs
+  artifactKey: Guid(f0187ab682900884b951eeb59c4fd2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/CarPlayer.cs using Guid(f0187ab682900884b951eeb59c4fd2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c37635c154df94bf232c96ba28138bbb') in 0.0003323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005931 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/barrier.mat
+  artifactKey: Guid(15d0da482bbe6cb478ee2a1d057f117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/barrier.mat using Guid(15d0da482bbe6cb478ee2a1d057f117d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad7aeb793be91ac44135063476f870b6') in 0.0047188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013833 seconds.
+  path: Assets/WorldSkies/Textures
+  artifactKey: Guid(106de6dfdddd381439c562b33d123138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldSkies/Textures using Guid(106de6dfdddd381439c562b33d123138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3643fab8fdadd77abe51242a333bd1c') in 0.0004056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001946 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/e18-004-ground-grass.mat
+  artifactKey: Guid(ce3d27659b39746a986b8b150e284378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/e18-004-ground-grass.mat using Guid(ce3d27659b39746a986b8b150e284378) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d62f1a2c5d9ed1a9f8f6cf9e15591b3') in 0.0062335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010357 seconds.
+  path: Assets/RACE AI/_Materials/Other Materials/RoadBarrier.mat
+  artifactKey: Guid(4516aaa450bd46042b21dc88666178e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Other Materials/RoadBarrier.mat using Guid(4516aaa450bd46042b21dc88666178e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21abac982c15224a7857e3e0a62c3326') in 0.0052033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003239 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7833b143574a8c24e8f9d3c01929ef98') in 0.0005582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001952 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d90e021f59760b075e931bab8c833a7') in 0.0005467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002657 seconds.
+  path: Assets/Scripts/Car/CarProgressHandler.cs
+  artifactKey: Guid(4064a2af632220e4390ca78062f05e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/CarProgressHandler.cs using Guid(4064a2af632220e4390ca78062f05e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50e329fc708ce28d66a573e3dcb7e9d7') in 0.0002846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002369 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/tunnel.mat
+  artifactKey: Guid(6e1d46c54f92643df824d393508c4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/tunnel.mat using Guid(6e1d46c54f92643df824d393508c4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91a7890b4058f3da6af409c8946b3169') in 0.0062199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013107 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '396a4b8ab0d3aefd022fdabb2ee7ddc5') in 0.0007919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002303 seconds.
+  path: Assets/RACE AI/Shaders/AlphaCutout_with_shadow.shader
+  artifactKey: Guid(a713b57fbd1de44789a80c362abb7327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Shaders/AlphaCutout_with_shadow.shader using Guid(a713b57fbd1de44789a80c362abb7327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c23c3868a1becf556404d14ae6ab5ab') in 0.0004138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009939 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90e0b8319ea467a2f648c51389bd6d6e') in 0.0008129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001534 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1c8a399cf46d1f329bed6c062085671') in 0.0003487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008801 seconds.
+  path: Assets/WorldSkies/Textures/Front_Tex.png
+  artifactKey: Guid(9495fdfc051ccf445a01b0e0049aeae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldSkies/Textures/Front_Tex.png using Guid(9495fdfc051ccf445a01b0e0049aeae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80a7e77124b313857c7f82ab24975dff') in 0.0048579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002445 seconds.
+  path: Assets/RACE AI/_Model/Roads/Materials/all.mat
+  artifactKey: Guid(46559d157d7a744f7a9d805416509a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads/Materials/all.mat using Guid(46559d157d7a744f7a9d805416509a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef1e96d4c24882d51c46c8498f0410ab') in 0.0051754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002436 seconds.
+  path: Assets/RACE AI/_Materials/MatDriftRaceTrack
+  artifactKey: Guid(e33eda6c6283bde418bffcdbd547180b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/MatDriftRaceTrack using Guid(e33eda6c6283bde418bffcdbd547180b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e908a89671561fb3bec53302396b21f4') in 0.0003213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005195 seconds.
+  path: Assets/RACE AI/_Prefabs/UnUsed/beach.fbm
+  artifactKey: Guid(cb0d274cc87b39b4f9ce643a28f95b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Prefabs/UnUsed/beach.fbm using Guid(cb0d274cc87b39b4f9ce643a28f95b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4b6b40b4890963c66267860822c8443') in 0.0002947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005224 seconds.
+  path: Assets/Scripts/Checkpoint.cs
+  artifactKey: Guid(f8ed6971d2b677743b8e8a62c3292559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Checkpoint.cs using Guid(f8ed6971d2b677743b8e8a62c3292559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25789010426fc84ed510a4906941ebd2') in 0.0003321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026078 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/AsphaltRoad_03_D2a.png
+  artifactKey: Guid(0787fe7844e2f4aec88d4142b2eefeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/AsphaltRoad_03_D2a.png using Guid(0787fe7844e2f4aec88d4142b2eefeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e58adc24ddd42289b12da0cf7e33b235') in 0.0053531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003478 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f7edc2964fa564fe1678b5602de2b93') in 0.0006143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001873 seconds.
+  path: Assets/RACE AI/_Model/Roads
+  artifactKey: Guid(610d24958084de045986cf5365d203e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Model/Roads using Guid(610d24958084de045986cf5365d203e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b94c9f8d738664dc6e3d6013153c5f04') in 0.0002638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011175 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Environment/Grunge_Spec.png
+  artifactKey: Guid(1485ad021e5258046bd192ee074b88cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Environment/Grunge_Spec.png using Guid(1485ad021e5258046bd192ee074b88cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd5538bddc0b03392bb5f695d59b3e44') in 0.0048247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043066 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/tunnel.png
+  artifactKey: Guid(341d1de1724a34249ba2636b02d85664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/tunnel.png using Guid(341d1de1724a34249ba2636b02d85664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baa049a309c40174f74c27f2581e3034') in 0.0057647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006416 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/road.mat
+  artifactKey: Guid(c72dff598141944eaab36e5a1ae8ad04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/road.mat using Guid(c72dff598141944eaab36e5a1ae8ad04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32be34919a6e9c705202dcc4f06e00d8') in 0.0048241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002547 seconds.
+  path: Assets/RACE AI/_Materials/Materials12/metalplatespainted-8.mat
+  artifactKey: Guid(132b10679cc728a438c693d947bf63ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Materials12/metalplatespainted-8.mat using Guid(132b10679cc728a438c693d947bf63ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a0e762b6383105db330918b97cc5047') in 0.0043723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001856 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/Village Textures
+  artifactKey: Guid(120e95f67e9ecd049aff2548e19aff36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/Village Textures using Guid(120e95f67e9ecd049aff2548e19aff36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd28ea3351589072d641d964e8d59b394') in 0.0003357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005320 seconds.
+  path: Assets/Scripts/Car/CarDust.cs
+  artifactKey: Guid(78bade68918bef846be56c8078dd2094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/CarDust.cs using Guid(78bade68918bef846be56c8078dd2094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb699c08367d0c03b7fe0a17791b32be') in 0.0003037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011769 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/banners.png
+  artifactKey: Guid(c4759d901a25b484a92f817a77aea882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/banners.png using Guid(c4759d901a25b484a92f817a77aea882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27851de2e9341940b15617ad0ec61107') in 0.0040686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005079 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b1397cbd172eb8c449d39d664da0c95') in 0.0003505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007489 seconds.
+  path: Assets/RACE AI/_Materials/Other Materials/Barier4.mat
+  artifactKey: Guid(8576fb73b6ae9fd409b638f8a642e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Other Materials/Barier4.mat using Guid(8576fb73b6ae9fd409b638f8a642e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46666420f407be1b7208b80fa942c232') in 0.0058071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001940 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(ecff2b1e48ca4fc4a8bf9e2521b1d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(ecff2b1e48ca4fc4a8bf9e2521b1d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '021d20e9140af465ca8d811892da591c') in 0.0003178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009200 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/Road-Spec1.png
+  artifactKey: Guid(262768733e00d6b4f91c94e1d2b09050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/Road-Spec1.png using Guid(262768733e00d6b4f91c94e1d2b09050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c97b22521b4aaab12946ef4f2746fb1') in 0.0056809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030839 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b97f085d3177a03338c4ef3492b00c32') in 0.0008102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

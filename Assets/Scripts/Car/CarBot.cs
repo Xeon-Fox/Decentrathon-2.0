@@ -60,8 +60,21 @@ public class CarBot : Car
 
     void BotMove()
     {
-        AdjustSpeedAndTurnStrength();  // Настройка скорости и силы поворота
+        AdjustSpeedAndTurnStrength(); // Настройка скорости и силы поворота
         Speed = ForwardAccel * baseSpeed;
+
+        // Check if the car is on the "grass" layer
+        if (gameObject.layer == LayerMask.NameToLayer("Grass"))
+        {
+            // Use raycasting to find the nearest point on the "ground" layer
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, LayerMask.GetMask("Ground")))
+            {
+                // Adjust the car's position to the hit point
+                transform.position = hit.point + Vector3.up * 0.5f; // Adjust height slightly to avoid sinking
+            }
+        }
+
         if (GroundChecker.OnGround) State = CarState.OnGroundAndMovingForward;
         else State = CarState.OffGround;
         RotateBotTowardsDestination();
