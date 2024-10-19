@@ -1,21 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;  // Для использования NavMesh
 
 public class CarBot : Car
 {
     [SerializeField] float botTurnStrength = 5f;
     [SerializeField] CarProgressHandler progressHandler;
+    [SerializeField] float baseSpeed = 1000f;  // базовая скорость
     LapHandler lapHandler;
-    
+    private NavMeshAgent navMeshAgent;  // Для управления навигацией
+
     public Vector3 Destination { get; set; }
 
     void Start()
     {
+        // Получаем NavMeshAgent
+        navMeshAgent = GetComponent<NavMeshAgent>();
+        if (navMeshAgent == null)
+        {
+            Debug.LogError("NavMeshAgent не найден!");
+            return;
+        }
+
+        // Отключаем автоматическое управление перемещением NavMeshAgent
+        navMeshAgent.updatePosition = false;
+        navMeshAgent.updateRotation = false;
+
         progressHandler.OnBotFinishedLap += HandleBotFinishedLap;
         progressHandler.OnBotCrossedCheckpoint += HandleBotCrossedCheckpoint;
         lapHandler = FindObjectOfType<LapHandler>();
         Destination = lapHandler.Checkpoints[0].GetRandomDestination();
+        navMeshAgent.destination = Destination;  // Устанавливаем начальное направление
     }
 
     void OnDestroy()
@@ -28,6 +44,7 @@ public class CarBot : Car
     {
         var checkpoints = lapHandler.Checkpoints;
         Destination = checkpoints[0].GetRandomDestination();
+        navMeshAgent.destination = Destination;  // Обновляем цель
     }
 
     void HandleBotCrossedCheckpoint(CarBot bot, int checkpointIndex)
@@ -36,40 +53,51 @@ public class CarBot : Car
         Destination = lapHandler.FinalCheckpoint == checkpointIndex ?
             lapHandler.gameObject.transform.position :
             checkpoints[checkpointIndex + 1].GetRandomDestination();
+
+        navMeshAgent.destination = Destination;  // Обновляем цель
     }
 
     void LateUpdate()
     {
-        BotMove();
-        base.LateUpdate();
+        BotMove();  // Движение бота
+        base.LateUpdate();  // Обновляем Car класс
     }
 
     void BotMove()
     {
-        Speed = ForwardAccel * 1000f;
-        if (GroundChecker.OnGround) State = CarState.OnGroundAndMovingForward;
-        else State = CarState.OffGround;
-        RotateBotTowardsDestination();
+        // Устанавливаем скорость на основе сложности
+        Speed = baseSpeed * Time.deltaTime;  // Движение с учетом базовой скорости и времени
+
+        if (GroundChecker.OnGround)
+        {
+            State = CarState.OnGroundAndMovingForward;
+            MoveForward();  // Перемещаем машину вперед
+        }
+        else
+        {
+            State = CarState.OffGround;
+        }
+
+        RotateBotTowardsDestination();  // Поворачиваем бота к цели
+    }
+
+    void MoveForward()
+    {
+        // Двигаем машину вперед с постоянной скоростью
+        transform.position += transform.forward * Speed;
     }
 
     void RotateBotTowardsDestination()
     {
-        Vector3 relativePos = Destination - transform.position;
+        // Используем NavMeshAgent для определения направления к цели
+        Vector3 relativePos = navMeshAgent.steeringTarget - transform.position;
         Quaternion targetRotation = Quaternion.LookRotation(relativePos);
         float randomTurnStrength = Random.Range(botTurnStrength, botTurnStrength * 2);
 
-        Vector3 oldRotation = transform.rotation.eulerAngles;
-
-        if (GroundChecker.OnGround)
-            transform.rotation = Quaternion.Lerp(
-                transform.rotation,
-                targetRotation,
-                Time.deltaTime * randomTurnStrength);
-
-        if ((oldRotation - transform.rotation.eulerAngles).y > 0.05f)
-            TurnInput = Mathf.Lerp(TurnInput, -1, Time.deltaTime * 10);
-        else if ((oldRotation - transform.rotation.eulerAngles).y < -0.05f)
-            TurnInput = Mathf.Lerp(TurnInput, 1, Time.deltaTime * 10);
-        else TurnInput = Mathf.Lerp(TurnInput, 0, Time.deltaTime * 10);
+        // Поворачиваем машину плавно в сторону цели
+        transform.rotation = Quaternion.Lerp(
+            transform.rotation,
+            targetRotation,
+            Time.deltaTime * randomTurnStrength);
     }
 }

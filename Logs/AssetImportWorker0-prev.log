@@ -1,0 +1,338 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16294 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Documents/GitHub/Decentrathon-2.0
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63502
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/User/Documents/GitHub/Decentrathon-2.0
+C:/Users/User/Documents/GitHub/Decentrathon-2.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18956]  Target information:
+
+Player connection [18956]  * "[IP] 192.168.100.37 [Port] 0 [Flags] 2 [Guid] 2737994639 [EditorId] 2737994639 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B75E30J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18956]  * "[IP] 26.21.9.0 [Port] 0 [Flags] 2 [Guid] 2737994639 [EditorId] 2737994639 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B75E30J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18956]  * "[IP] 25.46.245.39 [Port] 0 [Flags] 2 [Guid] 2737994639 [EditorId] 2737994639 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B75E30J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18956] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18956] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/Decentrathon-2.0/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5945 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011567 seconds.
+- Loaded All Assemblies, in  0.712 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.528 seconds
+Domain Reload Profiling: 1232ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (230ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (528ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.595 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.033 seconds
+Domain Reload Profiling: 2616ms
+	BeginReloadAssembly (882ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (538ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (101ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1034ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1823 unused Assets / (0.8 MB). Loaded Objects now: 2420.
+Memory consumption went from 98.5 MB to 97.7 MB.
+Total: 12.627900 ms (FindLiveObjects: 0.535800 ms CreateObjectMapping: 0.117600 ms MarkObjects: 10.433800 ms  DeleteObjects: 1.536700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 764895.046771 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf4d67635ab19c669c6a1eb7f0f7e64c') in 0.0559268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72e8f3f9538df19784ec451f163ef8d2') in 0.0015189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.timeline/package.json
+  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf6767e334ecf804845f0b123332af76') in 0.0011765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.528616 seconds.
+  path: Assets/RACE AI/_Materials/Offroad.physicMaterial
+  artifactKey: Guid(3a41f8cd60a34a34797a696eb065f4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/_Materials/Offroad.physicMaterial using Guid(3a41f8cd60a34a34797a696eb065f4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf96d2a38a8008d1375493f51d8221a5') in 0.0018755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.116088 seconds.
+  path: Assets/RACE AI/Textures/FenceGrid.png
+  artifactKey: Guid(88d80126289cc0a42a6438e8e19f1fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/FenceGrid.png using Guid(88d80126289cc0a42a6438e8e19f1fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d747738f33c75a2af754dffc032cc12') in 0.0786605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.297853 seconds.
+  path: Assets/RACE AI/Textures/_Textures
+  artifactKey: Guid(dad4588d8c80fb349800eca1360a6915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures using Guid(dad4588d8c80fb349800eca1360a6915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e8651811c4e8d5a7b53f51874b31670') in 0.0007593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.899822 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads
+  artifactKey: Guid(d2a2191c27a2a9e4cac0767a9a7f4ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads using Guid(d2a2191c27a2a9e4cac0767a9a7f4ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4be329c064a50a116667cea77e309872') in 0.0007182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101818 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/AsphaltRoad_03_D.png
+  artifactKey: Guid(79228e12a5ff0a34cbb544f09a510613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/AsphaltRoad_03_D.png using Guid(79228e12a5ff0a34cbb544f09a510613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '132111fb702274c1acff5272c9da02f3') in 0.025287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/Road-Spec1.png
+  artifactKey: Guid(262768733e00d6b4f91c94e1d2b09050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/Road-Spec1.png using Guid(262768733e00d6b4f91c94e1d2b09050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31433d9dd60c61e20287d04e58c7ac7a') in 0.0233194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/Road_normal.png
+  artifactKey: Guid(98229d9288e54524e9e8e5916d703646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/Road_normal.png using Guid(98229d9288e54524e9e8e5916d703646) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '690eca9e92236f34b6f45417f1e36f21') in 0.0309721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/Road_albedo05.png
+  artifactKey: Guid(11d1210b8a5af426aa5f4c5cb8d12346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/Road_albedo05.png using Guid(11d1210b8a5af426aa5f4c5cb8d12346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4a5be19a67b075edde369be22dbae98') in 0.0363154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/road_a2.png
+  artifactKey: Guid(6e54936d2bc4a43e298bd9cb5cb1499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/road_a2.png using Guid(6e54936d2bc4a43e298bd9cb5cb1499e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99b971bf93820bb582205b2b456e093b') in 0.0314784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/road_a1.png
+  artifactKey: Guid(6b87fb371c38143eb8813f8be9b070ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/road_a1.png using Guid(6b87fb371c38143eb8813f8be9b070ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cfe268ff6c2fa5c5f4c7320d193619f') in 0.0297521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Roads/roadtrack.png
+  artifactKey: Guid(58dafa5eb9aae4ce7a8e4cec56944c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Roads/roadtrack.png using Guid(58dafa5eb9aae4ce7a8e4cec56944c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58ae5ff96d8984acbf530f4984e64458') in 0.0259438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.444133 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/barrier.png
+  artifactKey: Guid(14ebe92f15ab84f6295fd53c375459a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/barrier.png using Guid(14ebe92f15ab84f6295fd53c375459a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a61eec12c26c1f730ba3651202d1b547') in 0.058601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/rw_bnd3C.png
+  artifactKey: Guid(c1506bdaf653e4bc9b40c968529300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/rw_bnd3C.png using Guid(c1506bdaf653e4bc9b40c968529300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae74b3aab896311ff392a1668957594f') in 0.0175037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Constructions/tunnel21.png
+  artifactKey: Guid(377e61c4204a0442b8d918d3c6d6ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Constructions/tunnel21.png using Guid(377e61c4204a0442b8d918d3c6d6ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e944c1050db66ce9f0011e90c778d33') in 0.0379875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.331469 seconds.
+  path: Assets/RACE AI/Textures/_Textures/Environment/Grunge_Spec.png
+  artifactKey: Guid(1485ad021e5258046bd192ee074b88cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RACE AI/Textures/_Textures/Environment/Grunge_Spec.png using Guid(1485ad021e5258046bd192ee074b88cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d13b4746d4f8c2b9e2f769a6da7da5d') in 0.0377463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
